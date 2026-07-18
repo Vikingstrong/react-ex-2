@@ -12,7 +12,7 @@ export default function ProductCrud(){
         <section className="flex flex-wrap gap-5 max-w-300 m-4 lg:m-auto">
             {
                 dataProduct.map(item => (
-                    <ProductBox key={item.id} item={item}></ProductBox>
+                    <ProductBox key={item.id} item={item}></ProductBox> 
                 ))
             }
         </section>
