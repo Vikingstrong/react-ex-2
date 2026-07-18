@@ -1,5 +1,6 @@
 import dataProduct from "../../../config/data"
 import ProductBox from "./ProductsBox"
+import { useState } from "react"
 
 export default function ProductCrud(){
 
